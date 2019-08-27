@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calc-container">
+        <table>
+            <tr>
+                <td id="displayValue" colspan="4">0</td>
+            </tr>
+            <tr>
+                <td id="displayValue2" colspan="4" hidden>0</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button value="AC" onclick="btnPress(event);">AC</button></td>
+                <td ><button value="del" onclick="btnPress(event);">Del</button></td>
+                <td><button value="/" onclick="btnPress(event);" class="operand">/</button></td>
+            </tr>
+            <tr>
+                <td><button value="7" onclick="btnPress(event);" class="numbers">7</button></td>
+                <td><button value="8" onclick="btnPress(event);" class="numbers">8</button></td>
+                <td><button value="9" onclick="btnPress(event);" class="numbers">9</button></td>
+                <td><button value="*" onclick="btnPress(event);" class="operand">X</button></td>
+            </tr>
+            <tr>
+                <td><button value="4" onclick="btnPress(event);" class="numbers">4</button></td>
+                <td><button value="5" onclick="btnPress(event);" class="numbers">5</button></td>
+                <td><button value="6" onclick="btnPress(event);" class="numbers">6</button></td>
+                <td><button value="-" onclick="btnPress(event);" class="operand">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="1" onclick="btnPress(event);" class="numbers">1</button></td>
+                <td><button value="2" onclick="btnPress(event);" class="numbers">2</button></td>
+                <td><button value="3" onclick="btnPress(event);" class="numbers">3</button></td>
+                <td><button value="+" onclick="btnPress(event);" class="operand">+</button></td>
+            </tr>
+            <tr>
+                <td><button value="." onclick="btnPress(event);">.</button></td>
+                <td><button value="0" onclick="btnPress(event);" class="numbers">0</button></td>
+                <td colspan="2"><button value="=" onclick="btnPress(event);" class="operand">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
