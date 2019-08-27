@@ -31,7 +31,6 @@ function btnPress(event) {
         }
     }
     else if (buttonvalue == '.') {
-        //used to check if decimal point already exist
         if (displayValue.innerHTML.includes('.') === false) {
             displayValue.innerHTML += '.';
             displayValue2.innerHTML += '.';
